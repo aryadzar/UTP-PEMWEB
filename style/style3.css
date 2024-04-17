@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background: #808080;
+    color: black;
+}
+#header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://www.pixelstalk.net/wp-content/uploads/images5/Grey-Aesthetic-Wallpaper-HD-1080p.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: 1;
+}
+
+.container{
+    padding: 10px 10% ;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.logo{
+    width: 140px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+    
+}
+nav ul li a{
+    color : black;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:after{
+    content: '';
+    width: 0;
+    height : 3px;
+    background-color: black;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transform: 0.5s;
+}
+nav ul li a:hover:after{
+    width: 100%;
+}
+.sub-title{
+    font-size: 60px;
+    font-weight: 600;
+    color : black
+}
+
+.social-links nav{
+    display: flex;
+    align-items:end;
+    justify-content:end;
+    flex-wrap: wrap;
+}
+.social-links nav ul li a i{
+    font-size: 35px;
+}
+
+.portofolio{
+    margin-top: 100px;
+}
+
+.portofolio .container h1{
+    text-align: center;
+}
+
+.work-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 40px;
+    margin-top: 45px;
+}
+
+.work{
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    background-color: #808080;
+    transition: background 0.5s, transform 0.5s;
+    
+}
+
+.work:hover{
+    color: wheat;
+    background: rgb(0, 0, 0);
+    transform: translateY(-10px);
+}
+
+.work iframe{
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+}
+.layer h3, p, i{
+    margin-top: 5%;
+    padding: 5%;
+}
+
+.layer p{
+    line-height: 18px;
+}
+.layer a i{
+    text-decoration: none;
+    color: black;
+}
+
+#footer{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+/* .layer{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0,0,0,0), #ff004f);
+    border-radius: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 40px;
+    text-align: center;
+    
+} */
