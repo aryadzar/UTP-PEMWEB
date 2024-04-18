@@ -62,15 +62,7 @@ nav ul li a:hover:after{
     color : black
 }
 
-.social-links nav{
-    display: flex;
-    align-items:end;
-    justify-content:end;
-    flex-wrap: wrap;
-}
-.social-links nav ul li a i{
-    font-size: 35px;
-}
+
 
 .portofolio{
     margin-top: 100px;
@@ -120,12 +112,7 @@ nav ul li a:hover:after{
     color: black;
 }
 
-#footer{
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px 0;
-}
+
 /* .layer{
     width: 100%;
     height: 100%;

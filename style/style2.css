@@ -186,3 +186,84 @@ nav ul li a:hover:after{
 .social-links nav ul li a i{
     font-size: 35px;
 }
+.resume{
+    margin-top: 2%;
+}
+.resume .row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.resume .resume-title {
+    font-size: 26px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #222222;
+  }
+  
+  .resume .resume-item {
+    padding: 0 0 20px 20px;
+    margin-top: -2px;
+    border-left: 2px solid rgb(0, 0, 0);
+    position: relative;
+  }
+  
+  .resume .resume-item h4 {
+    line-height: 18px;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: black;
+    margin-bottom: 10px;
+  }
+  
+  .resume .resume-item h5 {
+    font-size: 16px;
+    padding: 5px 15px;
+    display: inline-block;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: black;
+  }
+  
+  .resume .resume-item ul {
+    padding-left: 20px;
+  }
+  
+  .resume .resume-item ul li {
+    padding-bottom: 10px;
+  }
+  
+  .resume .resume-item:last-child {
+    padding-bottom: 0;
+  }
+  
+  .resume .resume-item::before {
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50px;
+    left: -9px;
+    top: 0;
+    background: #000000;
+    border: 2px solid #000000;
+  }
+  
+.resume .col-lg-6 {
+    width: 50%;
+    padding: 0 15px; /* Menambahkan ruang di sisi kiri dan kanan setiap kolom */
+}
+
+.resume .col-lg-6:nth-child(odd) {
+    order: 2; 
+}
+
+.resume .col-lg-6:nth-child(even) {
+    order: 1; /* Mengubah urutan kolom untuk menampilkan kolom kedua di sebelah kanan */
+}
+
+.section-title p{
+    margin-top: 3%
+}
+
